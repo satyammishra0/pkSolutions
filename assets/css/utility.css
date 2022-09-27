@@ -63,12 +63,12 @@
 }
 
 .basic-button {
-  background-color: var(--primary-violet);
+  background-color: var(--primary-blue);
   color: var(--white);
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
-  border: 1px solid var(--primary-violet);
+  border: 1px solid var(--primary-blue);
   cursor: pointer;
   transform: skewX(-15deg);
   padding: 11px 20px;

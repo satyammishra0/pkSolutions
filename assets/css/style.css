@@ -48,28 +48,46 @@ header {
   padding: var(--section-padding);
   text-align: center;
 }
-/* landing-container end */
+
 .main-h1-heading {
-  font-size: 72px;
+  font-size: 55px;
   color: var(--white);
   font-weight: 700;
-  text-transform: lowercase;
+  margin: 4% 0;
+  line-height: 1.2;
+  text-transform: capitalize;
 }
+
 .landing-container > p {
   margin-top: 2%;
-  color: var(--white-light);
+  color: var(--gray);
+  font-weight: 700;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 18px;
+  text-transform: uppercase;
 }
+
 .landing-container > p:first-child {
   margin-top: 0%;
+}
+
+.landing-container-last-p {
+  font-size: 22px !important;
+  text-transform: capitalize !important;
 }
 .landing-container > button {
   margin-top: 3%;
 }
+
 .landing-container > button > a {
   color: var(--white);
 }
+
 /* landing section end */
+
 /* strip section, start */
+
 .adds {
   padding: var(--side-padding);
   padding-top: 3%;
