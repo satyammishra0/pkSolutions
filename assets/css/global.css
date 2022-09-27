@@ -13,7 +13,7 @@
 /* roots */
 
 :root {
-  --side-padding: 0 8%;
+  --side-padding: 0 5%;
   --section-padding: 5% 8%;
   --black: #000;
   --white: #fff;
@@ -21,6 +21,8 @@
   --border-radius: 15px;
   --background-color: #080f20;
   --primary-blue: #007aff;
+  --primary-violet: #4e15ed;
   --primary-pink: #ff007b;
   --gray: #ccc;
+  --light-background-white: #f7f7fb;
 }
