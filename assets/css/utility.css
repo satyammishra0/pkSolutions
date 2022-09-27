@@ -1,9 +1,17 @@
+.width-100 {
+  width: 100%;
+}
 .flex {
   display: flex;
   align-items: center;
 }
 
 .flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-center-bet {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,40 +42,56 @@
 }
 
 .main-heading {
-  font-size: 30px;
-  font-weight: 900;
-  text-transform: uppercase;
-  font-family: var(--heading-font);
+  font-size: 55px;
+  font-weight: 600;
+  color: #1b2d42;
 }
 
 .sub-heading {
-  font-size: 22px;
-  font-weight: 800;
-  text-transform: uppercase;
-  font-family: var(--heading-font);
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--black);
 }
 
 .text {
-  font-size: 20px;
-  font-family: "Genos", sans-serif;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 600;
+}
+.text-sm {
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .basic-button {
-  background-color: var(--primary-pink);
+  background-color: var(--primary-violet);
   color: var(--white);
   text-transform: uppercase;
-  font-weight: bold;
-  height: 35px;
-  border-radius: 6px;
-  width: max-content;
-  border: 1px solid var(--white);
-  transition: all 0.3s linear;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid var(--primary-violet);
   cursor: pointer;
+  transform: skewX(-15deg);
+  padding: 11px 20px;
+  position: relative;
+  transition: all 0.3s linear;
+  overflow: hidden;
 }
-
+.basic-button::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -150%;
+  top: 0;
+  background-color: var(--background-color);
+  transition: all 0.3s linear;
+  z-index: -1;
+}
+.basic-button:hover::before {
+  left: 0%;
+}
 .basic-button:hover {
-  background-color: #e76464b1;
+  border: 1px solid var(--white);
 }
 
 .anchor {

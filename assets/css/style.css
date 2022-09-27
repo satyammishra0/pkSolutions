@@ -1,0 +1,166 @@
+:root {
+  --side-padding: 0 5%;
+  --section-padding: 5% 8%;
+  --black: #000;
+  --white: #fff;
+  --white-light: #ffffffcc;
+  --border-radius: 15px;
+  --background-color: #080f20;
+  --primary-blue: #007aff;
+  --primary-violet: #4e15ed;
+  --primary-pink: #ff007b;
+  --gray: #ccc;
+  --light-background-white: #f7f7fb;
+}
+/* landing section css start */
+.landing-section {
+  background-color: var(--background-color);
+  height: 650px;
+}
+
+/* header start */
+header {
+  height: 110px;
+  padding: var(--side-padding);
+}
+.h2-logo > h2 {
+  font-size: 30px;
+  color: var(--white);
+}
+
+.link-item {
+  padding: 7px 15px;
+}
+.line-ani {
+  color: #ffffffcc;
+  font-size: 17px;
+  font-weight: 600;
+  position: relative;
+  padding: 2px 0;
+  transition: 0.25s;
+}
+.line-ani:hover {
+  color: var(--white);
+}
+
+.line-ani::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1.5px;
+  background-color: var(--white);
+  transition: width 0.25s ease-out;
+}
+.line-ani:hover::before {
+  width: 100%;
+}
+/* header end */
+/* landing-container start */
+.landing-container {
+  padding: var(--section-padding);
+  text-align: center;
+}
+/* landing-container end */
+.main-h1-heading {
+  font-size: 72px;
+  color: var(--white);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.landing-container > p {
+  margin-top: 2%;
+  color: var(--white-light);
+}
+.landing-container > button {
+  margin-top: 3%;
+}
+.landing-container > button {
+  color: var(--white);
+}
+/* landing section end */
+/* strip section, start */
+.adds {
+  padding: var(--side-padding);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  box-shadow: 0 8px 32px -10px rgb(0 0 0 / 20%);
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  overflow-y: auto;
+}
+
+.adds::-webkit-scrollbar {
+  width: 0px;
+}
+
+.adds > img {
+  width: 130px;
+  height: 90px;
+  opacity: 0.5;
+  transition: 0.5s;
+  cursor: hand;
+}
+.adds > img:hover {
+  opacity: 1;
+}
+/* strip section, end  */
+/* service section start */
+.service-section {
+  padding: var(--section-padding);
+  text-align: center;
+}
+.service-section > h2 {
+}
+.service-section > p {
+  color: #1a2d43;
+  font-size: 18px;
+  width: 50%;
+  margin: 15px auto;
+  font-weight: 600;
+}
+/* service section end */
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3%;
+}
+.service-child {
+  background-color: var(--light-background-white);
+  padding: 8% 8% 4% 8%;
+  text-align: left;
+  margin-top: 4%;
+  transition: all 0.3s linear;
+}
+.service-child > h6 {
+  margin-bottom: 15px;
+}
+.service-child > p {
+  width: 80%;
+}
+
+.service-child > div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.service-child > div > ion-icon {
+  font-size: 20px;
+  color: #00000067;
+}
+.service-child:hover {
+  background-color: var(--primary-violet);
+}
+.service-child:hover > p {
+  color: var(--white);
+}
+.service-child:hover > h6 {
+  color: var(--white);
+}
+.service-child:hover > div > ion-icon {
+  color: var(--white);
+}
