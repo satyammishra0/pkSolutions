@@ -53,7 +53,7 @@ header {
   font-size: 72px;
   color: var(--white);
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: lowercase;
 }
 .landing-container > p {
   margin-top: 2%;
