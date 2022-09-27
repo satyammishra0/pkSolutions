@@ -14,7 +14,7 @@
 
 :root {
   --side-padding: 0 5%;
-  --section-padding: 5%;
+  --section-padding: 5% 8%;
   --black: #000;
   --white: #fff;
   --border-radius: 15px;
