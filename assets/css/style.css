@@ -109,6 +109,7 @@ header {
   width: 50%;
   margin: 15px auto;
   font-weight: 600;
+  margin-bottom: 5%;
 }
 /* service section end */
 
@@ -117,18 +118,22 @@ header {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 3%;
 }
+
 .service-child {
   background-color: var(--light-background-white);
-  padding: 8% 8% 4% 8%;
+  padding: 9% 8% 5% 8%;
   text-align: left;
   margin-top: 4%;
   transition: all 0.3s linear;
 }
 .service-child > h6 {
   margin-bottom: 15px;
+  color: #000000d6;
 }
 .service-child > p {
   width: 80%;
+  color: var(--text-color);
+  word-spacing: 1.5px;
 }
 .service-child > div {
   margin-top: 20px;
