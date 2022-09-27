@@ -7,7 +7,7 @@
   text-decoration: none;
   list-style: none;
   color: #1a2d43;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 /* roots */
@@ -25,4 +25,8 @@
   --primary-pink: #ff007b;
   --gray: #ccc;
   --light-background-white: #f7f7fb;
+}
+
+body {
+  padding: 0.5%;
 }

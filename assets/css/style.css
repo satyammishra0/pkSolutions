@@ -102,8 +102,7 @@ header {
   padding: var(--section-padding);
   text-align: center;
 }
-.service-section > h2 {
-}
+
 .service-section > p {
   color: #1a2d43;
   font-size: 18px;
