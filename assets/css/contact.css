@@ -1,44 +1,45 @@
-.contact-us {
-  padding: vaR(--section-padding);
-}
-
-.contact-us > h2 {
+.contact-form > h2 {
   text-align: center;
 }
-.contact-us > p {
+.contact-form > p {
   text-align: center;
-  margin: 1% 0;
 }
 
-.contact-us-grid-left > img {
-  height: 100%;
-  width: 100%;
+.form {
+  padding: 3% 20%;
 }
 
-.contact-us-grid-right > input {
-  width: 100%;
-  padding: 5px;
+input {
+  line-height: 2.4;
   font-size: 14px;
-  height: 30px;
-  border-radius: 5px;
-  outline: none;
-  border: 1px solid vaR(--gray);
-  margin: 2% 0;
+  padding: 2px 6px;
+  background-color: #f3f6f480;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  width: 300px;
+  margin-right: 5%;
 }
 
-.contact-us-grid-right > textarea {
-  width: 100%;
-  padding: 5px;
+label {
+  color: #4b5563;
   font-size: 14px;
-  border-radius: 5px;
-  outline: none;
-  border: 1px solid vaR(--gray);
-  margin: 2% 0;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 
-.contact-us-grid-right > input[type="submit"] {
-  background-color: var(--primary-violet);
-  color: #fff;
-  font-weight: bold;
-  font-size: 18px;
+textarea {
+  width: 650px;
+  font-size: 14px;
+  padding: 2px 6px;
+  background-color: #f3f6f480;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+}
+.inputs-2 {
+  margin-left: 50px;
+}
+
+.smt-btn {
+  width: 100%;
+  padding: 2% 0;
 }

@@ -10,6 +10,11 @@
   font-family: "Roboto Slab", serif;
 }
 
+/* Smoooth body scrolling  */
+html {
+  scroll-behavior: smooth;
+}
+
 /* roots */
 
 :root {

@@ -10,16 +10,13 @@
     <meta name="author" content="Satyam Mishra ,Vaibhav Tiwari" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png" />
     <link rel="stylesheet" href="./assets/css/global.css" />
     <link rel="stylesheet" href="./assets/css/utility.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
-      rel="stylesheet"
-    /> -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
@@ -27,11 +24,23 @@
   </head>
 
   <body>
-    <!-- first landing include header , start-->
+    <!-- ------------------------ -->
+    <!-- -----Hiring Alert ------ -->
+    <!-- ------------------------ -->
+    <section class="hiring grid-center">
+      WE ARE HIRING <a href="mailto:fake@gmail.com"> Mail Us</a>
+    </section>
+
+    <!-- ------------------------ -->
+    <!-- -----Landing section -->
+    <!-- ------------------------ -->
     <section class="landing-section">
       <header id="header" class="width-100 flex-center-bet">
-        <div class="h2-logo">
-          <h2 class="">PK Solutions</h2>
+        <!-- ------------------------ -->
+        <!-- -----Logo section -->
+        <!-- ------------------------ -->
+        <div class="logo-container flex">
+          <p class="flex"><span>PK</span> Solutions</p>
         </div>
         <div class="menu-list-div">
           <ul class="menu-list flex-center">
@@ -42,18 +51,18 @@
             </li>
             <li>
               <div class="link-item">
-                <a class="line-ani" href="#">Services</a>
+                <a class="line-ani" href="#services">Services</a>
               </div>
             </li>
             <li>
               <div class="link-item">
-                <a class="line-ani" href="#">Portfolio</a>
+                <a class="line-ani" href="#portfolio">Portfolio</a>
               </div>
             </li>
 
             <li>
               <div class="link-item">
-                <a class="line-ani" href="#">Contact Us</a>
+                <a class="line-ani" href="#contact">Contact Us</a>
               </div>
             </li>
           </ul>
@@ -78,16 +87,31 @@
 
     <!-- strip section, start -->
     <div class="adds width-100">
-      <img src="./assets/images/google-partner.png" alt="" />
-      <img src="./assets/images/clutch.png" alt="" />
-      <img src="./assets/images/google-star.png" alt="" />
-      <img src="./assets/images/woo-commerce.png" alt="" />
-      <img src="./assets/images/wordpress.png" alt="" />
+      <img
+        src="./assets/images/google-partner.png"
+        alt="Best Digital Marketing Company "
+      />
+      <img
+        src="./assets/images/clutch.png"
+        alt="Best Digital Marketing Company "
+      />
+      <img
+        src="./assets/images/google-star.png"
+        alt="Best Digital Marketing Company "
+      />
+      <img
+        src="./assets/images/woo-commerce.png"
+        alt="Best Digital Marketing Company "
+      />
+      <img
+        src="./assets/images/wordpress.png"
+        alt="Best Digital Marketing Company "
+      />
     </div>
     <!-- strip section, end -->
 
     <!-- services section start -->
-    <section class="service-section">
+    <section class="service-section" id="services">
       <h2 class="main-heading">We help your business thrive</h2>
       <p class="text">
         Transforming business challenges into impactful web- and mobile
@@ -157,7 +181,7 @@
     <!-- -----Portfolio section -->
     <!-- ------------------------ -->
 
-    <section class="portfolio-container padding">
+    <section class="portfolio-container padding" id="portfolio">
       <h2 class="main-heading">What we already done</h2>
 
       <!-- ------------------------ -->
@@ -302,7 +326,7 @@
             Equip your team with extra hands on deck and deliver high quality
             projects on time.
           </p>
-          <button class="basic-button">Hello world</button>
+          <button class="basic-button">Get in Touch</button>
         </div>
         <div
           class="collaboration-container-left flex-center-bet collaboration-container-right padding"
@@ -315,41 +339,10 @@
             As your partner, we assist you with complementary expertise, be it
             design, development or just advice.
           </p>
-          <button class="basic-button">Hello world</button>
+          <button class="basic-button">
+            <a href="#services">See our Services</a>
+          </button>
         </div>
-      </div>
-    </section>
-
-    <!-- ------------------------ -->
-    <!-- -----Contact Box ---- -->
-    <!-- ------------------------ -->
-
-    <section class="contact-us">
-      <h2 class="main-heading">Have some questions ?</h2>
-      <p class="text">
-        Your product will be tested on different devices before it is deployed
-        and launched.
-      </p>
-      <div class="contact-us-grid grid grid-2">
-        <div class="contact-us-grid-left">
-          <img
-            src="./assets/images/mail.jpg"
-            alt="Best digital marketing company"
-          />
-        </div>
-        <form class="contact-us-grid-right">
-          <input type="text" placeholder="First name" />
-          <input type="text" placeholder="Last name" />
-          <input type="Email" placeholder="Email" />
-          <textarea
-            name="message"
-            placeholder="Please enter your Message"
-            id=""
-            cols="30"
-            rows="5"
-          ></textarea>
-          <input type="submit" placeholder="Submit" />
-        </form>
       </div>
     </section>
 
@@ -357,14 +350,16 @@
     <!-- -----Sub Footer here---- -->
     <!-- ------------------------ -->
 
-    <section class="sub-footer padding">
+    <section class="sub-footer padding" id="contact">
       <div class="sub-footer-grid grid">
         <div class="sub-footer-grid-left">
           <h2>Let’s talk about your next <span>business challenge</span></h2>
           <p>Get to meet Your Next Agency</p>
         </div>
         <div class="sub-footer-grid-right grid-center">
-          <button class="basic-button">Get in touch</button>
+          <button class="basic-button">
+            <a href="mailto:fake@email.com">fake@email.com</a>
+          </button>
         </div>
       </div>
     </section>
@@ -374,15 +369,17 @@
     <!-- ------------------------ -->
 
     <footer class="footer flex-center-bet">
-      <div class="footer-strip">Pk Solutions</div>
+      <div class="footer-logo-container flex">
+        <span>PK</span>
+      </div>
       <div class="footer-strip">
         Copyright © 2022, PK Solutions - All Rights Reserved.
       </div>
       <div class="footer-strip">
-        <a><ion-icon name="call-sharp"></ion-icon></a>
-        <a><ion-icon name="logo-facebook"></ion-icon></a>
-        <a><ion-icon name="logo-instagram"></ion-icon></a>
-        <a><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="call-sharp"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
       </div>
     </footer>
     <!-- ------------------------ -->
